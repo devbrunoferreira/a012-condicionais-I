@@ -1,4 +1,4 @@
-let nacionalidade = prompt('Escreva aqui sua nacionalidade:')
+let nacionalidade = prompt('Escreva aqui sua nacionalidade:').toLowerCase();
 
 if (nacionalidade === 'brasileira') {
     alert(`Sua nacionalidade é ${nacionalidade}.`);
